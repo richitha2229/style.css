@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff1f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color: #b71c1c;
+    text-align: center;
+}
+
+/* Horizontal line */
+hr {
+    border: 1px solid #e0a0a0;
+    margin: 20px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Forms */
+form {
+    background-color: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0002;
+}
+
+/* Input fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #880e0e;
+}
+
+/* Donor Table */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #b71c1c;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #ffe5e5;
+}
+
+/* Footer */
+footer {
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    header {
+        font-size: 20px;
+    }
+}

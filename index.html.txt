@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LifeLine - Blood Donation Website</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>❤️ LifeLine - Blood Donation Website</h1>
+        <p>Donate Blood, Save Lives!</p>
+    </header>
+
+    <hr>
+
+    <h2>About Blood Donation</h2>
+    <p>
+        Blood donation is a voluntary process that helps save
+        the lives of people who need blood during emergencies
+        and medical treatments.
+    </p>
+
+    <hr>
+
+    <h2>Register as a Blood Donor</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" placeholder="Enter your age"><br><br>
+
+        <label>Blood Group:</label><br>
+        <select>
+            <option>Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </select><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" placeholder="Enter phone number"><br><br>
+
+        <label>City:</label><br>
+        <input type="text" placeholder="Enter your city"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+    <h2>Find a Blood Donor</h2>
+
+    <form>
+        <label>Select Blood Group:</label><br>
+        <select>
+            <option>All Blood Groups</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </select><br><br>
+
+        <label>Enter City:</label><br>
+        <input type="text" placeholder="Enter city"><br><br>
+
+        <input type="submit" value="Search Donors">
+    </form>
+
+    <hr>
+
+    <h2>Sample Donor Details</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Blood Group</th>
+            <th>Phone</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Anil Kumar</td>
+            <td>28</td>
+            <td>O+</td>
+            <td>9876543210</td>
+            <td>Hyderabad</td>
+        </tr>
+
+        <tr>
+            <td>Priya Sharma</td>
+            <td>25</td>
+            <td>B+</td>
+            <td>9123456780</td>
+            <td>Chennai</td>
+        </tr>
+
+        <tr>
+            <td>Rahul Verma</td>
+            <td>32</td>
+            <td>B+</td>
+            <td>9988776655</td>
+            <td>Hyderabad</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Contact Us</h2>
+    <p>Email: lifeline@gmail.com</p>
+    <p>Phone: 9876543210</p>
+
+    <hr>
+
+    <footer>
+        <h3>LifeLine Blood Donation Website</h3>
+        <p>Every Drop Counts - Save Lives! ❤️</p>
+        <p>Thank You for Being a Donor.</p>
+    </footer>
+
+</body>
+</html>
